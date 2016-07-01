@@ -1,0 +1,16 @@
+logs/*
+!.gitkeep
+node_modules/
+app/bower_components/
+app/.sass-cache
+tmp
+.DS_Store
+.idea
+.bowerrc
+.jshintrc
+.sass-cache/
+.travis.yml
+LICENSE
+Would skip repository angular-seed/
+e2e-tests/
+karma.conf.js

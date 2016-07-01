@@ -1,0 +1,9 @@
+//architecture smaccs. Import dans style.scss :  smacss->
+//détail du contenu des dossiers smacss : detail ->
+// coller ordre hierarchie bloc de style : order ->
+/***************** MODULES *************************/
+@import
+"base",
+"layout",
+"module/header",
+"module/footer";

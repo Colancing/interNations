@@ -1,0 +1,30 @@
+/*************HEADER******************/
+
+header {
+  .top {
+    height: 150px;
+    line-height: 140px;
+    background-color: lightcyan;
+    background: linear-gradient(#ffffff 50%, rgba(255, 255, 255, 0) 0) 0 0,
+    radial-gradient(circle closest-side, #FFFFFF 53%, rgba(255, 255, 255, 0) 0) 0 0,
+    radial-gradient(circle closest-side, #FFFFFF 50%, rgba(255, 255, 255, 0) 0) 55px 0 #48B;
+    background-size: 110px 200px;
+    background-repeat: repeat-x;
+
+    .miniLogo {
+      margin-top: 42px;
+      height: 50px;
+      width: 50px;
+      background: white url("../../img/mini-icon.png") center no-repeat;
+    }
+  }
+  .navbar {
+    .navbar-header {
+
+      .navbar-brand {
+        color: $blue;
+      }
+    }
+  }
+
+}
